@@ -1,0 +1,39 @@
+@import url('https://fonts.cdnfonts.com/css/georgia-2');
+@import url('https://fonts.cdnfonts.com/css/lucida-sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    font-family: 'Georgia Bold', sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+/*SOBRE NÓS*/
+section.sobreNos{
+    background-color: #F1C15D;
+    padding: 20px;
+}
+
+img.iconeSobreNos{
+    width: 80px;
+    height: auto;
+}
+
+section.sobreNos summary{
+    color: #F4F4F4;
+}
+
+section.sobreNos p{
+    color: #262626;
+}
+
+img.setas {
+    width: 911px;
+}
