@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    background-color: #343333;
+    color: #FFF;
+    padding: 24px;
+}
+
+.contact-container h1 {
+    font-size: 34px;
+}
