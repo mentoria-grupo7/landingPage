@@ -1,0 +1,28 @@
+name: landingPage workflow
+
+on: 
+  push:
+    branches: 
+      - develop
+  pull_request:
+    branches: 
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: 
+      name: homologacao
+      url: 'https://abracae.surge.sh'
+
+    steps:
+    - uses: actions/checkout@v2
+  
+    - name: install node
+      uses: actions/setup-node@v2-beta
+      with: 
+        node-version: 12
+    - name: install surge
+      run: npm install -g surge
+    - name: deploy landingPage
+      run: surge ./ abracae.surge.sh --token ${{secrets.SURGE_TOKEN}}
