@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: homologacao
-      url: 'https://abracae.surge.sh'
+      url: 'https://abracae-hlg.surge.sh'
 
     steps:
     - uses: actions/checkout@v2
@@ -25,4 +25,4 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: deploy landingPage
-      run: surge ./ abracae.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ abracae-hlg.surge.sh --token ${{secrets.SURGE_TOKEN}}
