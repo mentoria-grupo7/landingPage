@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/georgia-2');
+@import url('https://fonts.cdnfonts.com/css/lucida-sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: #4ECDC4;
+    --branco: #f4f4f4;
+    --preto: #262626;
+    --roxo: #69419D;
+    --amarelo: #F1C15D;
+    --vermelho: #FF6B6B;
+  }
+
+h1, h2, h3{
+    font-family: 'Georgia Bold', sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+/*SOBRE NÓS*/
+section.sobreNos{
+    height: 1200px;
+    padding: 20px;
+    background-color: #F1C15D;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(img/sobre/fotoBackground.png);
+    position: relative;
+}
+
+.sectionWidth{
+    width: 696px;
+}
+
+.displayFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.sobreNos h2{
+    padding: 4px 12px;
+    width: 500px;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 15px;
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+section.sobreNos p{
+    color: var(--branco);
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto 50px auto;
+}
+
+section.sobreNos details[open] > summary{
+    background-color: var(--branco);
+    border-radius: 10px 10px 0 0;
+}
+
+section.sobreNos summary{
+    color: var(--preto);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--azul);
+    font-size: 20px;
+    text-align: left;
+    transition: 0.2s linear;
+    font-family: 'Georgia Bold', sans-serif;
+    font-weight: 600;
+}
+
+section.sobreNos summary:hover{
+    color: var(--preto);
+    background-color: var(--branco);
+    cursor: pointer;
+}
+
+section.sobreNos details p{
+    font-size: 18px;
+    color: var(--preto);
+    background-color: var(--branco);
+    padding: 40px; 
+    margin-top: 15px;
+    overflow: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+section.sobreNos img.sobreSeta{
+    width: 85px;
+    height: auto;
+    margin: 33px auto;
+}
+
+figure.containerLogo{
+    align-self: flex-end;
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+
+section.sobreNos img.sobreLogo{
+    width: 195px;
+    height: 200px;
+}
