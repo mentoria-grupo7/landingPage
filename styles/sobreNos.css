@@ -1,36 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/georgia-2');
-@import url('https://fonts.cdnfonts.com/css/lucida-sans');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
-    --azul: #4ECDC4;
-    --branco: #f4f4f4;
-    --preto: #262626;
-    --roxo: #69419D;
-    --amarelo: #F1C15D;
-    --vermelho: #FF6B6B;
-  }
-
-h1, h2, h3{
-    font-family: 'Georgia Bold', sans-serif;
-}
-
-p {
-    font-family: 'Lucida Sans', sans-serif;
-}
-
 /*SOBRE NÓS*/
 section.sobreNos{
     height: 1200px;
     padding: 20px;
     background-color: #F1C15D;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url(img/sobre/fotoBackground.png);
+                       rgba(0, 0, 0, 0.5)), url(../img/sobre/fotoBackground.png);
     position: relative;
 }
 
@@ -47,9 +21,8 @@ section.sobreNos{
 
 section.sobreNos h2{
     padding: 4px 12px;
-    width: 500px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     border-radius: 15px;
     color: var(--branco);
     background-color: var(--azul);
@@ -57,7 +30,7 @@ section.sobreNos h2{
 
 section.sobreNos p{
     color: var(--branco);
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin: 20px auto 50px auto;
 }

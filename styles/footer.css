@@ -1,0 +1,40 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #770404;
+}
+
+div.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    width: 80%;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', sans-serif;
+    color: var(--branco);
+    margin: 0px 20px;
+    transition: 0.2s linear;
+}
+
+footer ul a:hover{
+    color: var(--preto);
+}
+
+ul.footer-social-media{
+    display: flex;
+}
+
+footer p{
+    color: var(--branco);
+    margin-bottom: 20px;
+}
