@@ -91,3 +91,12 @@ a:hover:before {
     visibility: visible;
     transition: 2s;
 }
+
+.areaNordeste {
+    display: flex;
+}
+
+.regiaoNordeste .nordeste {
+    margin: -420px -120px;
+    font-size: 48px;
+}
