@@ -62,11 +62,23 @@
 
 /*início da seção como ajudar*/
 
-.section-how-to-help {
-    width: 100%;
-    /** largura **/
+.ajude {
     display: flex;
+    flex-direction: column;
+}
+
+.ajude-container p {
+    width: 450px;
+}
+
+.section-how-to-help {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
     flex-direction: row;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .left {
@@ -171,7 +183,7 @@
     border-radius: 24px;
 }
 
-div.border-img img{
+div .border-img img {
     border-radius: 5px;
     border: 5px solid #2E0331;
 }
