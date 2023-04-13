@@ -5,11 +5,14 @@ section.sobreNos{
     background-color: #F1C15D;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                        rgba(0, 0, 0, 0.5)), url(../img/sobre/fotoBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
 .sectionWidth{
-    width: 696px;
+    width: auto;
+ 
 }
 
 .displayFlex{
@@ -17,6 +20,8 @@ section.sobreNos{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 section.sobreNos h2{
