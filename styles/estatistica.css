@@ -78,9 +78,13 @@ a:hover:before {
     transition: 2s;
 }
 
-.regiao .nordeste{
-    margin: -420px -80px;
-    font-size: 48px;
+.regiaoNordeste {
+    display: flex;
+}
+
+.regiaoNordeste .nordeste{
+    margin: -460px 200px;
+    font-size: 36px;
 }
 
 .regiao{
@@ -92,11 +96,3 @@ a:hover:before {
     transition: 2s;
 }
 
-.areaNordeste {
-    display: flex;
-}
-
-.regiaoNordeste .nordeste {
-    margin: -420px -120px;
-    font-size: 48px;
-}
