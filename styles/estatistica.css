@@ -67,26 +67,31 @@ a:hover:before {
 .nomeRegioes .norte{
     margin: -500px 200px;
     font-size: 40px;
+    text-shadow: 5px 5px 10px black;
 }
 
 .nomeRegioes .nordeste{
     margin: -420px -80px;
     font-size: 40px;
+    text-shadow: 5px 5px 10px black;
 }
 
 .centro{
     margin: -320px -300px;
     font-size: 40px;
+    text-shadow: 5px 5px 10px black;
 }
 
 .sudeste{
     margin: -260px 320px;
     font-size: 48px;
+    text-shadow: 5px 5px 10px black;
 }
 
 .sul{
     margin: -130px -540px;
     font-size: 40px;
+    text-shadow: 5px 5px 10px black;
 }
 
 .nomeRegioes{
@@ -101,4 +106,5 @@ a:hover:before {
 .dadosRegiao {
     color: red;
     font-size: 36px;
+    text-shadow: 5px 5px 10px black;
 }
