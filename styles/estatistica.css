@@ -60,39 +60,51 @@ a:hover:before {
     transform: scaleX(1);
 }
 
-.regiaoNorte {
+.nomeRegioes {
     display: flex;
 }
 
-.regiaoNorte .norte{
-    margin: -450px 200px;
+.nomeRegioes .norte{
+    margin: -500px 200px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.nomeRegioes .nordeste{
+    margin: -420px -80px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.centro{
+    margin: -320px -300px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.sudeste{
+    margin: -260px 320px;
     font-size: 48px;
+    text-shadow: 5px 5px 10px black;
 }
 
-.regiaoNorte{
-    visibility: hidden;
+.sul{
+    margin: -130px -540px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
 }
 
-.areaNorte:hover + .regiaoNorte .norte{
-    visibility: visible;
-    transition: 2s;
+.nomeRegioes{
+    filter: blur(100px);
+    transition: filter 750ms ease-in-out;
 }
 
-.regiaoNordeste {
-    display: flex;
+.imgBrasil:hover + .nomeRegioes {
+    filter: blur(0);
 }
 
-.regiaoNordeste .nordeste{
-    margin: -460px 200px;
+.dadosRegiao {
+    color: red;
     font-size: 36px;
+    text-shadow: 5px 5px 10px black;
 }
-
-.regiao{
-    visibility: hidden;
-}
-
-.areaNordeste:hover + .regiao{
-    visibility: visible;
-    transition: 2s;
-}
-

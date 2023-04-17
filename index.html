@@ -271,7 +271,7 @@
   </section>
 
   <!--ESTATÍSTICA-->
-  <section class="conteudo">
+  <section class="conteudo" id="estatistica">
     <div class="conteudo-principal">
       <h1 class="titleEstatistica">Os números <br> da fome <br> no Brasil</h1>
       <p class="paragrafoEstatistica">
@@ -290,22 +290,15 @@
       </p>
     </div>
     <figure class="containerMapa">
-      <img src="img/estatistica/Brasil.png" usemap="#mapaBrasil" alt="Mapa do Brasil">
-      <map name="mapaBrasil">
-        <area class="areaNorte" shape="poly"
-          coords="1,203,15,183,18,163,57,148,58,80,62,57,204,1,219,58,281,47,324,47,348,13,354,42,428,101,396,168,431,249,429,286,365,287,364,257,368,236,263,230,242,193,238,220,193,221,192,256,216,257,208,297,147,278,131,264,128,238,89.251,48,256,45,254,33,238,11,224,2,207"
-          href="#" alt="Estatística da fome da Região Norte">
-        <div class="regiaoNorte">
-          <span class="norte">Norte</span>
+      <img class="imgBrasil" src="img/estatistica/Brasil.png" alt="Mapa do Brasil">
+        <div class="nomeRegioes">
+          <h3 class="norte">Norte<br><span class="dadosRegiao">25.7%</span></h3>
+          <h3 class="nordeste">Nordeste<br><span class="dadosRegiao">21%</span></h3>
+          <h3 class="centro">Centro<br><span class="dadosRegiao">12.9%</span></h3>
+          <h3 class="sudeste">Sudeste<br><span class="dadosRegiao">13,1%</span></h3>
+          <h3 class="sul">Sul<br><span class="dadosRegiao">9,9%</span></h3>
         </div>
-        <area class="areaNordeste" shape="rect" coords="429,101,539,328" alt="Estatística da fome na Região Nordeste">
-        <div class="regiaoNordeste">
-          <span class="nordeste">Nordeste</span>
-        </div>
-        <area shape="rect" coords="213,223,396,369" alt="Estatística da Região Centro-Oeste">
-        <area shape="poly" coords="324,434,357,385,409,360,428,316,524,332,530,371,493,441,400,476,370,441,322,432" alt="Estatística da Região Sudeste">
-        <area shape="rect" coords="251,464,410,592" alt="Estatística da Região Sul">
-      </map>
+      </figure>
     </figure>
   </section>
 
