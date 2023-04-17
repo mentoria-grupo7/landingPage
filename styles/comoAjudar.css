@@ -1,0 +1,191 @@
+/*início da seção contato*/
+
+.contact-container {
+    background-color: #343333;
+    color: #FFF;
+    padding: 24px;
+}
+
+.contact-title {
+    font-size: 34px;
+    padding-bottom: 24px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.contact_image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.contact-input-padrao {
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.field-area {
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.contact-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-btn {
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    background-color: #4ECDC4;
+    padding: 8px 20px;
+    margin-right: 10px;
+    font-weight: 900;
+    transition: ease-in 1s;
+}
+
+.contact-btn:hover {
+    background-color: #FFF;
+}
+
+/*fim da seção contato*/
+
+/*início da seção como ajudar*/
+
+.ajude {
+    display: flex;
+    flex-direction: column;
+}
+
+.ajude-container p {
+    width: 450px;
+}
+
+.section-how-to-help {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: row;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.left {
+    width: 50%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 32px auto 24px auto;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 36px;
+    text-align: center;
+    background-color: #4ECDC4;
+    color: #000;
+    border-radius: 10px;
+}
+
+.subtitle {
+    background-color: #4ECDC4;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    color: #000;
+}
+
+.container-subtitle {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+
+}
+
+.left .subtitle {
+    margin-top: 8px;
+    max-width: 65%;
+}
+
+.text {
+    max-width: 65%;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 20 px;
+}
+
+.right {
+    width: 50%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form {
+    background-color: #4ECDC4;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.container-form form label {
+    margin: 8px;
+    color: #F4F4F4;
+}
+
+.container-form .left h2 {
+    margin: 20px;
+    max-width: 65%;
+    padding-left: 50px;
+    color: #000;
+}
+
+.container-form .left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.container-form .input-padrao {
+    width: 377px;
+    height: 42px;
+}
+
+.container-form .enviar {
+    width: 254px;
+    height: 44px;
+    margin: 8px auto 0 auto;
+    font-weight: bold;
+    color: #F4F4F4;
+    background: #2E0331;
+    border-radius: 24px;
+}
+
+div .border-img img {
+    border-radius: 5px;
+    border: 5px solid #2E0331;
+}
+
+/*fim da seção como ajudar*/

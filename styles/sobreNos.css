@@ -1,0 +1,92 @@
+/*SOBRE NÓS*/
+section.sobreNos{
+    height: 1200px;
+    padding: 20px;
+    background-color: #F1C15D;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(../img/sobre/fotoBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sectionWidth{
+    width: auto;
+ 
+}
+
+.displayFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section.sobreNos h2{
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 15px;
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+section.sobreNos p{
+    color: var(--branco);
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto 50px auto;
+}
+
+section.sobreNos details[open] > summary{
+    background-color: var(--branco);
+    border-radius: 10px 10px 0 0;
+}
+
+section.sobreNos summary{
+    color: var(--preto);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--azul);
+    font-size: 20px;
+    text-align: left;
+    transition: 0.2s linear;
+    font-family: 'Georgia Bold', sans-serif;
+    font-weight: 600;
+}
+
+section.sobreNos summary:hover{
+    color: var(--preto);
+    background-color: var(--branco);
+    cursor: pointer;
+}
+
+section.sobreNos details p{
+    font-size: 18px;
+    color: var(--preto);
+    background-color: var(--branco);
+    padding: 40px; 
+    margin-top: 15px;
+    overflow: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+section.sobreNos img.sobreSeta{
+    width: 85px;
+    height: auto;
+    margin: 33px auto;
+}
+
+figure.containerLogo{
+    align-self: flex-end;
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+
+section.sobreNos img.sobreLogo{
+    width: 195px;
+    height: 200px;
+}

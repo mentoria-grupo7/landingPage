@@ -1,0 +1,33 @@
+header{
+    height: 88px;
+    width: 100%;
+    background-color: var(--azul);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', sans-serif;
+    color: var(--branco);
+    margin: 0 20px;
+    transition: 0.2s linear;
+}
+
+header ul a:hover{
+    color: var(--preto);
+}
