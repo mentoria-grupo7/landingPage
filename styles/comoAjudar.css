@@ -62,13 +62,26 @@
 
 /*início da seção como ajudar*/
 
-.ajude {
+.ajude-container {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 .ajude-container p {
     width: 450px;
+}
+
+.arrow-img {
+    width: 80px;
+    height: 100px;
+    rotate: 90deg;
+}
+
+@media (max-width: 900px) {
+    .arrow-img {
+        rotate: 180deg;
+    }
 }
 
 .section-how-to-help {
@@ -79,6 +92,8 @@
     flex-direction: row;
     padding-top: 16px;
     padding-bottom: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .left {
@@ -105,6 +120,13 @@
     background-color: #4ECDC4;
     width: 300px;
     text-align: center;
+    border-radius: 10px;
+    color: #000;
+}
+
+.subtitle-form {
+    background-color: #4ECDC4;
+    width: 300px;
     border-radius: 10px;
     color: #000;
 }
@@ -141,7 +163,12 @@
 .container-form {
     background-color: #4ECDC4;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
     flex-direction: row;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .container-form form {
